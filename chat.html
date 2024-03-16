@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat App</title>
+    <link rel="stylesheet" href="chat.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <!-------------------------->
+    <div class="container">
+      <header>
+        <a href="#" class="logo">Chat</a>
+        <div class="action">
+          <a href="#"><ion-icon name="camera"></ion-icon></a>
+          <a href="#"><ion-icon name="search"></ion-icon></a>
+          <a href="#"><ion-icon name="ellipsis-vertical-outline"></ion-icon></a>
+        </div>
+      </header>
+      <div class="tabs">
+        <input id="chats" type="radio" name="group" checked />
+        <input id="status" type="radio" name="group" />
+        <input id="calls" type="radio" name="group" />
+
+        <div class="buttons">
+          <label for="chats">Chats</label>
+          <label for="status">Status</label>
+          <label for="calls">Call</label>
+          <div class="underline"></div>
+        </div>
+        <div class="content">
+          <div class="box chats">
+            <div class="data">
+              <div class="chatlist">
+                <a href="chatroom.html">
+                  <div class="block unread">
+                    <div class="imgbx">
+                      <img src="image/img1.png" />
+                    </div>
+                    <div class="details">
+                      <div class="listHead">
+                        <h4>Arun</h4>
+                        <p class="time">8:01</p>
+                      </div>
+                      <div class="message_p">
+                        <p>where are you now?</p>
+                        <b>2</b>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="chatlist">
+                <a href="chatroom2.html">
+                  <div class="block unread">
+                    <div class="imgbx">
+                      <img src="image/img2.png" />
+                    </div>
+                    <div class="details">
+                      <div class="listHead">
+                        <h4>Bhuvan</h4>
+                        <p class="time">9:45</p>
+                      </div>
+                      <div class="message_p">
+                        <p>Did you finished your project</p>
+                        <b>3</b>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="chatlist">
+                <a href="chatroom3.html">
+                <div class="block">
+                  <div class="imgbx">
+                    <img src="image/img3.png" />
+                  </div>
+                  <div class="details">
+                    <div class="listHead">
+                      <h4>Sindhu</h4>
+                      <p class="time">Yesterday</p>
+                    </div>
+                    <div class="message_p">
+                      <p>All ok</p>
+                    </div>
+                  </div>
+                </div>
+                </a>
+              </div>
+
+              <div class="chatlist">
+                <a href="chatroom4.html">
+                <div class="block unread">
+                  <div class="imgbx">
+                    <img src="image/img4.png" />
+                  </div>
+                  <div class="details">
+                    <div class="listHead">
+                      <h4>Nandhini</h4>
+                      <p class="time">8:16</p>
+                    </div>
+                    <div class="message_p">
+                      <p>Send me a pdf</p>
+                      <b>1</b>
+                    </div>
+                  </div>
+                </div>
+                </a>
+              </div>
+
+              <div class="chatlist">
+                <div class="block unread">
+                  <div class="imgbx">
+                    <img src="image/img5.jpg" />
+                  </div>
+                  <div class="details">
+                    <div class="listHead">
+                      <h4>Karthi</h4>
+                      <p class="time">10:07</p>
+                    </div>
+                    <div class="message_p">
+                      <p>how to make</p>
+                      <b>1</b>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="chatlist">
+                <div class="block">
+                  <div class="imgbx">
+                    <img src="image/img6.png" />
+                  </div>
+                  <div class="details">
+                    <div class="listHead">
+                      <h4>Padmini</h4>
+                      <p class="time">Yesterday</p>
+                    </div>
+                    <div class="message_p">
+                      <p>Good night</p>
+                      <!-- <b>1</b> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="box status">
+            <div class="data">
+              <div class="chatlist">
+                <div class="block">
+                  <div class="imgbx">
+                    <img src="image/img7.png" />
+                  </div>
+                  <div class="details">
+                    <div class="listHead">
+                      <h4>My Status</h4>
+                    </div>
+                    <div class="message_p">
+                      <p>Tap to add status</p>
+                    </div>
+                  </div>
+                </div>
+                <lable>Recent Update</lable>
+                <div class="block unread">
+                  <div class="imgbx">
+                    <img src="image/img1.png" />
+                  </div>
+                  <div class="details">
+                    <div class="listHead">
+                      <h4>Yashu</h4>
+                    </div>
+                    <div class="message_p">
+                      <p>Just Now</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="chatlist">
+                  <div class="block unseen">
+                    <div class="imgbx">
+                      <img src="image/img2.png" />
+                    </div>
+                    <div class="details">
+                      <div class="listHead">
+                        <h4>Buvan</h4>
+                      </div>
+                      <div class="message_p">
+                        <p>45 minutes ago</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="block unseen">
+                  <div class="imgbx">
+                    <img src="image/img3.png" />
+                  </div>
+                  <div class="details">
+                    <div class="listHead">
+                      <h4>Sindhu</h4>
+                    </div>
+                    <div class="message_p">
+                      <p>48 minutes ago</p>
+                    </div>
+                  </div>
+                </div>
+
+                <lable>Viewed Update</lable>
+                <!--  -->
+                <div class="chatlist">
+                  <div class="block unread">
+                    <div class="imgbx">
+                      <img src="image/img4.png" />
+                    </div>
+                    <div class="details">
+                      <div class="listHead">
+                        <h4>Nandhini</h4>
+                      </div>
+                      <div class="message_p">
+                        <p>Yesterday</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+              </div>
+            </div>
+          </div>
+          <div class="box calls">
+            <lable> Recent </lable>
+            <div class="data">
+              <div class="chatlist">
+                <div class="block">
+                  <div class="imgbx">
+                    <img src="image/img4.png" />
+                  </div>
+                  <div class="details">
+                    <div class="listHead">
+                      <h4>Karthi</h4>
+                    </div>
+                    <div class="message_p">
+                      <p>41 min ago</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="block">
+                  <div class="imgbx">
+                    <img src="image/img2.png" />
+                  </div>
+                  <div class="details">
+                    <div class="listHead">
+                      <h4>Padmini</h4>
+                    </div>
+                    <div class="message_p">
+                      <p>Yesterday,8:45</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
